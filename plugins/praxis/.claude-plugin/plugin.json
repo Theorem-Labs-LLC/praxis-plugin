@@ -1,0 +1,9 @@
+{
+  "name": "praxis",
+  "version": "0.1.0",
+  "description": "Connect Claude to your Praxis board: find, claim and update tickets, and follow your team's project workflow.",
+  "author": { "name": "Theorem Labs" },
+  "homepage": "https://praxis.theorem-labs.com/setup.html",
+  "license": "Apache-2.0",
+  "keywords": ["project-management", "kanban", "tickets", "mcp"]
+}

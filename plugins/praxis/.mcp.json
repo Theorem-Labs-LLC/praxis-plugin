@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "praxis": {
+      "type": "http",
+      "url": "https://praxis.theorem-labs.com/mcp"
+    }
+  }
+}
