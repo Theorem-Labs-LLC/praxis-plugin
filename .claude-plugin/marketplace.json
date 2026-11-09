@@ -1,12 +1,17 @@
 {
   "name": "theorem-labs",
-  "owner": { "name": "Theorem Labs", "url": "https://github.com/Theorem-Labs-LLC" },
-  "metadata": { "description": "Theorem Labs plugins for Claude Code and Cowork." },
+  "owner": {
+    "name": "Theorem Labs",
+    "url": "https://github.com/Theorem-Labs-LLC"
+  },
+  "metadata": {
+    "description": "Theorem Labs plugins for Claude Code and Cowork."
+  },
   "plugins": [
     {
       "name": "praxis",
       "source": "./plugins/praxis",
-      "description": "Connect Claude to your Praxis board: find, claim and update tickets, and follow your team's project workflow.",
+      "description": "Connect Claude to Praxis, the project tracker your team and its AI agents share: claim and work tickets, file work from conversations, plan the board and write stakeholder updates.",
       "category": "productivity",
       "homepage": "https://praxis.theorem-labs.com"
     }

@@ -1,7 +1,7 @@
 {
   "name": "praxis",
-  "version": "0.1.0",
-  "description": "Connect Claude to your Praxis board: find, claim and update tickets, and follow your team's project workflow.",
+  "version": "0.2.0",
+  "description": "Connect Claude to Praxis, the tracker your team and its AI agents share: work tickets, file work from conversations, plan the board and write stakeholder updates.",
   "author": { "name": "Theorem Labs" },
   "homepage": "https://praxis.theorem-labs.com/setup.html",
   "license": "Apache-2.0",

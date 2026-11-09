@@ -18,8 +18,18 @@ claude plugin marketplace add Theorem-Labs-LLC/praxis-plugin
 claude plugin install praxis@theorem-labs
 ```
 
-Then run `/mcp`, choose **praxis** and sign in. The plugin also adds the Praxis workflow skill,
-so Claude finds, claims and updates tickets the way your team does.
+Then run `/mcp`, choose **praxis** and sign in. The plugin also adds four skills (work a ticket,
+file tickets, plan the board, write updates) and five commands:
+
+| Command | Does |
+| --- | --- |
+| `/praxis:status [board]` | Summarise the board, read only |
+| `/praxis:next [board]` | Take the most important ready ticket |
+| `/praxis:handoff [key]` | Record where you got to and release the ticket |
+| `/praxis:file [text]` | File tickets from text or this conversation, after you confirm |
+| `/praxis:update [topic]` | Draft a stakeholder update; never publishes on its own |
+
+Already installed? Run `claude plugin marketplace update theorem-labs` to get the latest version.
 
 Without the plugin: `claude mcp add --transport http praxis https://praxis.theorem-labs.com/mcp`
 
